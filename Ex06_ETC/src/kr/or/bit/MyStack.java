@@ -4,6 +4,8 @@ package kr.or.bit;
 //배열로 만들어랑 ㅜㅜㅜ; 오브젝트 배열로 만들어랑
 
 public class MyStack {
+
+	
 	private int top; //값이 변한데요(point 개념? 커서 라네요)
 	public Object[] stackarr;//데이따를 담을 공간
 	private int count; //오브젝트 배열의 인덱스
@@ -41,6 +43,12 @@ public class MyStack {
 	}
 
 	public static void main(String[] args) {
+		
+		char i = '\r';
+		System.out.println(i);
+		System.out.println((int)
+				(i));
+		
 		MyStack m = new MyStack(10);
 		
 		m.push(1);

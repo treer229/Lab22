@@ -38,7 +38,7 @@ public class Ex06_String_Fun {
 		String filenames = "aaaa.jpg";
 		//파일명 >> 홍길동
 		//확장자 >> jpg
-		
+		System.out.println("여기!!!!");
 		if(filenames.lastIndexOf(".") > 0) {
 				System.out.println(filenames.substring(filenames.lastIndexOf(".")));
 		}
@@ -73,11 +73,13 @@ public class Ex06_String_Fun {
 		//java, javascript, DB >> 정규표현식
 		//0000-{\d4}-0000
 		//
+		System.out.println("토큰나이저+++++++++++++++++++++++++++++++++++++");
 		String s7 = "a/b,c.d=f";
 		StringTokenizer sto = new StringTokenizer(s7,"/,.=");
 		while(sto.hasMoreTokens()) {
-			System.out.println(sto.nextToken());
+			System.out.print(sto.nextToken());
 		}
+		System.out.println();
 				
 		//넌센스
 		String ss1 = "홍                     길                     동";
